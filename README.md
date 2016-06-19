@@ -1,4 +1,6 @@
-# Angular 2 Component Router Firebase Material Seed Project
+# Angular 2 Component Router, Firebase, Material2--Seed Project
+
+A great Angular 2 example project that incorporates a Firebase backend, some Material Design components (which are in alpha), and Component Routing (with children)
 
 ## Project Overview
 - The purpose of this project is to try out Angular2 with the [component router](https://angular.io/docs/ts/latest/guide/router.html), [Angular2-Material](https://github.com/angular/material2) and [AngularFire2](https://github.com/angular/angularfire2)
@@ -22,7 +24,7 @@
   - tabs
 - The Angular2 component router has been set up and the config is in `app.routes.ts`
 
-## Initializing this repo (for devs)
+## Initializing this repo
 - Run `npm install -g angular-cli` to install the angular-cli (command-line-interface)
 - Run `npm install` to install all dependencies to the node_modules folder
 - connect your firebase by editing `defaultFirebase` in the bootstrap function in `src/main.ts`
