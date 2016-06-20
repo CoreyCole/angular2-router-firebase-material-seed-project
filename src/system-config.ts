@@ -21,6 +21,7 @@ const packages: any = {
 };
 
 // material design packages
+// if you add a new package, simply append it to the end of this list
 const materialPkgs:string[] = [
   'core',
   'button',
@@ -39,6 +40,7 @@ const materialPkgs:string[] = [
   'tabs'
 ];
 
+// this function compiles the packages we listed above so the system knows they are installed
 materialPkgs.forEach((pkg) => {
   packages[`@angular2-material/${pkg}`] = {
     format: 'cjs',

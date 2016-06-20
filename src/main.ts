@@ -17,6 +17,9 @@ if (environment.production) {
   enableProdMode();
 }
 
+// this is the bootstrap!
+// things added below are GLOBALLY provided to the application, simply append it the array below
+// once that is done you do NOT need to add it as a PROVIDER in any controller, just import and pass to constructor
 bootstrap(AppComponent, [
   APP_ROUTER_PROVIDERS, // angular 2 component router global directives
   HTTP_PROVIDERS,
