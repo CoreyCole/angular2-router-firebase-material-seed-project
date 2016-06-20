@@ -1,0 +1,7 @@
+@import url('../app.component.css');
+
+#view {
+  height: 90vh;
+  overflow-x: none;
+  overflow-y: scroll;
+}

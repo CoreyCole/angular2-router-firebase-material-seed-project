@@ -80,6 +80,7 @@ const barrels: string[] = [
   'app/signup',
   'app/server-feed-list',
   'app/server-avatars',
+  'app/example',
   /** @cli-barrel */
 ];
 

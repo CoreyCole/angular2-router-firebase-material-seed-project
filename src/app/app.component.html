@@ -1,3 +1,9 @@
-<h1>{{title}}</h1>
- <!--the router-outlet where route provides componenet -->
+<md-toolbar class="dark-primary-color text-primary-color">
+  <div class="full-width">
+    <h4 md-line class="title heading full-width">{{title}}</h4>
+    <p md-line class="title sub-heading full-width" style="font-size: 0.5em;">{{sub_title}}</p>  
+    <p md-line class="title sub-heading full-width" style="font-size: 0.5em; text-align: right">{{by_authors}}</p>  
+  </div>
+</md-toolbar> <!--a component we installed and imported!-->
+<!--the router-outlet where route provides componenet-->
 <router-outlet></router-outlet>

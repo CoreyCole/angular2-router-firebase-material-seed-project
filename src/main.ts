@@ -13,6 +13,9 @@ import { HTTP_PROVIDERS } from '@angular/http';
 // firebase dependency
 import { FIREBASE_PROVIDERS, defaultFirebase } from 'angularfire2';
 
+// here we are going to globally provide a service
+import { ExampleService } from './app/example.service';
+
 if (environment.production) {
   enableProdMode();
 }
@@ -22,6 +25,7 @@ if (environment.production) {
 // once that is done you do NOT need to add it as a PROVIDER in any controller, just import and pass to constructor
 bootstrap(AppComponent, [
   APP_ROUTER_PROVIDERS, // angular 2 component router global directives
+  ExampleService, // now our exampleService is globally provided! go to example.component to see it in use
   HTTP_PROVIDERS,
   FIREBASE_PROVIDERS,
   // Initialize Firebase app  

@@ -1,0 +1,14 @@
+/* import the style palette we made earlier */
+@import url('../palette.css');
+
+.title {
+  margin: 0;
+}
+
+.title .sub-heading {
+  font-size: 10px;
+}
+
+.full-width {
+  width: 100%;
+}
