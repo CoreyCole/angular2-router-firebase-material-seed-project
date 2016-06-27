@@ -5,3 +5,7 @@
   overflow-x: none;
   overflow-y: scroll;
 }
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
